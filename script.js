@@ -2,9 +2,9 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 789;
+const frameCount = 691;
 const currentFrame = index => (
-  `./frames/gravio_architecture_${index.toString().padStart(4, '0')}.jpg`
+  `./frames/frm_${index.toString().padStart(4, '0')}.jpg`
 )
 
 const preloadImages = () => {
